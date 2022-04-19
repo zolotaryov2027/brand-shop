@@ -1,0 +1,52 @@
+*,
+*:before,
+*::after{
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html,
+body{
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  font-family: $base-font;
+  color: $font-color;
+}
+
+.button-reset{
+  padding: 0;
+  background: transparent;
+  border: 0;
+  line-height: 0;
+}
+
+.list-reset{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.link-reset{
+  text-decoration: none;
+  color: inherit;
+}
+
+.input-reset{
+  padding: 0;
+  border: 0;
+}

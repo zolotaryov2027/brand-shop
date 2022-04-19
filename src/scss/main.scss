@@ -1,0 +1,30 @@
+@import 'fonts';
+@import 'variables';
+@import 'normalize';
+@import 'settings';
+@import 'grid';
+
+/* search */
+
+@import 'blocks/search';
+
+/* burger */
+@import 'blocks/burger';
+
+/* user */
+@import 'blocks/user';
+
+/* basket */
+@import 'blocks/basket';
+
+/* section title */
+@import 'blocks/section-title';
+/*blocks*/
+@import 'blocks/header';
+@import 'blocks/intro';
+@import 'blocks/offers';
+@import 'blocks/fetured';
+
+
+
+@import 'blocks/footer';

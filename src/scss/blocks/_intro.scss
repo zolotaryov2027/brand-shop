@@ -1,0 +1,41 @@
+.intro{
+  background: rgba($intro-color-scorpion, 0.08);
+  &__content{
+    background: $soft-peach-color;
+  }
+}
+
+.title{
+  margin: 0;
+  line-height: 57.6px;
+  position: relative;
+  padding-left: 28px;
+  &--big{
+    font-size: 48px;
+    font-weight: 900;
+  }
+  &::before{
+    content: '';
+    display: block;
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: $froly-color;
+  }
+}
+
+.subtitle{
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.4px;
+  &--red{
+    color: $froly-color;
+  }
+}
+
+.intro__image{
+  background: url('../img/intro/intro-image-men.jpg') center/cover no-repeat;
+}
