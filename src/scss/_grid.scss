@@ -21,7 +21,6 @@
 
 
 .footer {
-  min-height: 79px;
   flex-grow: 0;
 }
 
@@ -253,4 +252,29 @@
 
 .subscribe__subtitle {
   margin-bottom: 32px;
+}
+
+
+.footer__container {
+  min-height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social {
+  display: flex;
+}
+
+
+.social-item:not(:last-child) {
+  margin-right: 7px;
+}
+
+.social-item__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 32px;
 }

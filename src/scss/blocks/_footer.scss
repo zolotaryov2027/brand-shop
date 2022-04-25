@@ -1,3 +1,31 @@
 .footer {
   background-color: $color-shark;
 }
+
+.copy {
+  color: $alabaster-text;
+
+  &__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+
+.social-item__link {
+  background: $white-color;
+  transition-property: background-color fill stroke;
+  transition-duration: .1s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.social-item__link:hover {
+  background: $froly-color;
+}
+
+
+.social-item__link:hover.social-item__link path {
+  fill: $white-color;
+  stroke: $white-color;
+}
