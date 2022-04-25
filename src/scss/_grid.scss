@@ -196,3 +196,61 @@
 .advantages-item__text {
   margin: 0;
 }
+
+
+
+
+.subscribe {
+  padding: 97px 0 126px;
+
+  .index-columns {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .index-column {
+    flex: 1 1 50%;
+  }
+}
+
+
+.subscribe-info {
+  text-align: center;
+  max-width: 360px;
+
+  &__avatar {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin: 0;
+  }
+}
+
+
+.subscribe-form {
+  max-width: 380px;
+  display: flex;
+  margin: 0 auto;
+
+  &__email {
+    flex-grow: 1;
+    padding: 15px 22px;
+  }
+
+  &__button {
+    padding: 15px 22px;
+  }
+}
+
+
+
+.subscribe__title,
+.subscribe__subtitle {
+  margin: 0;
+  text-align: center;
+}
+
+.subscribe__subtitle {
+  margin-bottom: 32px;
+}
