@@ -3,13 +3,12 @@
 @import 'normalize';
 @import 'settings';
 
+/*grid*/
+@import 'grid';
+
 
 
 /*Blocks*/
 
 @import 'blocks/header';
-
-
-
-/*grid*/
-@import 'grid';
+@import 'blocks/intro';
