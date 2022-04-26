@@ -1,8 +1,75 @@
-.header{
+.header {
   background-color: $color-shark;
+
+  &__container {
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__column--left,
+  &__column--right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search {
+    line-height: 0;
+    padding-top: 3px;
+  }
+
+  &__logo {
+    margin-right: 40px;
+  }
+
+  &__user {
+    margin-right: 42px;
+  }
 }
 
 
-.logo__icon{
-  display: block;
+.menu-burger {
+  width: 32px;
+  height: 23px;
+  cursor: pointer;
+  margin-right: 25px;
+
+  &::before,
+  &::after {
+    content: '';
+  }
+
+  &__line,
+  &::before,
+  &::after {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: $mercury-color;
+  }
+
+  &__line {
+    margin: 7px 0;
+  }
+}
+
+
+.basket {
+  position: relative;
+
+  &__number {
+    font-size: 12px;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: $white-color;
+    background: $froly-color;
+    position: absolute;
+    top: -7px;
+    right: -12px;
+  }
 }
