@@ -97,33 +97,33 @@
 
 
 
-.fetured {
+.products {
   padding: 97px 0 95px;
 }
 
 
-.fetured__title,
-.fetured__subtitle {
+.products__title,
+.products__subtitle {
   margin: 0;
   text-align: center;
 }
 
-.fetured__title {
+.products__title {
   margin-bottom: 6px;
 }
 
-.fetured__subtitle {
+.products__subtitle {
   margin-bottom: 48px;
 }
 
 
-.fetured-list {
+.products-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
 
-.fetured-item {
+.products-item {
   flex: 0 1 calc(33.333% - 30px);
   margin: 15px 15px;
 

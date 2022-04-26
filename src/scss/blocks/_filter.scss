@@ -1,0 +1,31 @@
+.filter{
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.filter__button{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 320px;
+  cursor: pointer;
+}
+
+.sort{
+  display: flex;
+  &__item{
+    margin: 0 15px;
+  }
+}
+
+
+.sort__button{
+  color: $dove-gray;
+  cursor: pointer;
+  span{
+    padding-right: 10px;
+  }
+}
+
+

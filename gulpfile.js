@@ -32,7 +32,7 @@ const ttf2woff2 = require('gulp-ttf2woff2');
 
 // Task html
 const html = () => {
-  return src('src/index.html')
+  return src('src/**.html')
     .pipe(fileinclude())
     .pipe(dest('dist/'))
     .pipe(browserSync.stream());

@@ -3,7 +3,7 @@
 }
 
 
-.fetured-item{
+.products-item{
   background: $alabaster-color;
   &__image{
     position: relative;
@@ -45,12 +45,12 @@
   }
 }
 
-.fetured-item__link{
+.products-item__link{
   display: block;
   position: relative;
 }
 
-.fetured-add-cart{
+.products-add-cart{
   display: flex;
   align-items: center;
   border: 1px solid $white-color;
@@ -67,8 +67,8 @@
   transition: opacity .3s ease-in-out;
 }
 
-.fetured-item__link:hover .fetured-item__image::before,
-.fetured-item__link:hover .fetured-add-cart{
+.products-item__link:hover .products-item__image::before,
+.products-item__link:hover .products-add-cart{
   opacity: 1;
 }
 
