@@ -2,6 +2,7 @@
 @import 'variables';
 @import 'normalize';
 @import 'settings';
+@import 'mixins';
 
 /*grid*/
 @import 'grid';
@@ -9,7 +10,9 @@
 
 
 /*Blocks*/
-
+@import 'blocks/section-header';
 @import 'blocks/header';
 @import 'blocks/intro';
 @import 'blocks/offer';
+@import 'blocks/products';
+@import 'blocks/products-item';

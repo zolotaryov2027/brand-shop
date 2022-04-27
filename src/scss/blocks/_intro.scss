@@ -1,5 +1,4 @@
 .intro {
-  min-height: 764px;
   margin: 0 auto;
   background: -webkit-linear-gradient(90deg, rgba(113, 103, 105, 0.08) 50%, rgb(241, 228, 230) 50%);
   background: -moz-linear-gradient(90deg, rgba(113, 103, 105, 0.08) 50%, rgb(241, 228, 230) 50%);
@@ -7,6 +6,8 @@
 
   &__img {
     display: block;
+    max-width: 100%;
+    height: auto;
   }
 
   &__container {
