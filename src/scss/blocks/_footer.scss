@@ -1,0 +1,41 @@
+.footer{
+  background: $color-shark;
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+}
+
+.copyright{
+  color: $alabaster-text;
+}
+
+.social{
+  display: flex;
+  &__item{
+    &:not(:last-child){
+      margin-right: 7px;
+    }
+  }
+  &__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: $white-color;
+    text-decoration: none;
+    transition-property: fill background-color;
+    transition-duration: .1s;
+    transition-timing-function: ease-in-out;
+    &:hover{
+      background: $froly-color;
+    }
+    &:hover.social__link path{
+      fill: $white-color;
+    }
+  }
+}
+
