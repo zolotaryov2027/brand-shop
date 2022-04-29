@@ -1,16 +1,13 @@
-const search = document.querySelector('.search');
-const searchButton = search.querySelector('.search__button');
+const menuBurger = document.querySelector('.menu-burger');
+const nav = document.querySelector('.navigation');
+const navigationClose = nav.querySelector('.navigation__close');
 
 
 
+menuBurger.addEventListener('click', function(){
+  nav.classList.add('navigation--active');
+})
 
-function showSearch(inp) {
-  inp.classList.toggle('search__input--active');
-}
-
-searchButton.addEventListener('click', function(evt){
-  evt.preventDefault();
-  
-  const searchInput = search.querySelector('.search__input');
-  showSearch(searchInput);
+navigationClose.addEventListener('click', function(){
+  nav.classList.remove('navigation--active');
 })

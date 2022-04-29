@@ -69,7 +69,8 @@ const images = () => {
 // Task scripts
 const scripts = () => {
   return src('src/js/**/*.js')
-    .pipe(dest('dist/js'));
+    .pipe(dest('dist/js'))
+    .pipe(browserSync.stream());
 }
 
 // Task fonts
