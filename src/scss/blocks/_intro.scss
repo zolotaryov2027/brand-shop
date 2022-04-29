@@ -4,18 +4,21 @@
   background: -moz-linear-gradient(90deg, rgba(113, 103, 105, 0.08) 50%, rgb(241, 228, 230) 50%);
   background: linear-gradient(90deg, rgba(113, 103, 105, 0.08) 50%, rgb(241, 228, 230) 50%);
   position: relative;
+  z-index: 1;
   &::before{
     content: '';
-    display: none;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
     position: absolute;
     background: rgba($black-color, .5);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
   }
-  &--active::before{
-    display: block;
+  &--overlay::before{
+    opacity: 1;
   }
   &__img {
     display: block;

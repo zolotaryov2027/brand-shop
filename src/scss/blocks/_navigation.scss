@@ -8,6 +8,7 @@
   padding: 37px 34px;
   transform: translateX(100vw);
   transition: transform .2s ease-in-out;
+  z-index: 3;
   &--active{
     transform: translateX(0);
   }
