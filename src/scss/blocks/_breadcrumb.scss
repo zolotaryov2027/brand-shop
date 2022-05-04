@@ -1,0 +1,26 @@
+.breadcrumb__list{
+  display: flex;
+}
+
+.breadcrumb-item{
+  &::after{
+    content: '/';
+    margin: 0 7px;
+    font-size: 14px;
+    font-weight: 300;
+    color: $dove-gray;
+  }
+  &:last-child::after{
+    display: none;
+  }
+  &__link{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: $dove-gray;
+    &--active{
+      font-weight: 700;
+      color: $froly-color;
+    }
+  }
+}

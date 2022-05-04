@@ -1,0 +1,18 @@
+.cart-intro{
+  position: relative;
+  padding: 60px 0;
+  background: $soft-peach;
+  &__title{
+    font-weight: 400;
+    font-size: 24px;
+    color: $froly-color;
+  }
+  &__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation{
+    height: auto;
+  }
+}
